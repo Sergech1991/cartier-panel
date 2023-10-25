@@ -1,0 +1,191 @@
+body {
+    width: 1400px;
+    margin: auto;
+    color: #fff;
+    background-color: #000;
+}
+
+.root {
+    background-color: #486563;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    padding-top: 22px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 400px;
+}
+
+.header__block-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 220px;
+    padding-top: 30px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.item1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.first-block__item {
+    margin-left: 35px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.phone-link {
+    margin-left: 35px;
+    margin-top: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contacts__messengers {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.viber {
+    width: 40px;
+}
+
+.viber-link:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    font-size: 22px;
+    margin-top: 55px;
+}
+
+.menu__item {
+    margin-right: 40px;
+}
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+ text-decoration: none;
+ color: #FECD99; 
+}
+
+.menu__link:hover {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__form {
+    background-color: #fff;
+    width: 550px;
+    padding-left: 80px;
+}
+
+.activeform {
+    color: #000;
+    margin-top: 80px;
+}
+
+.main__form-title {
+    color: #F9985B;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+input[type="text"] {
+    margin-left: 105px;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    margin-left: 97px;
+    margin-bottom: 20px;
+}
+
+input[type="tel"] {
+    margin-left: 77px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 305px;
+    margin-top: 30px;
+    min-height: 150px;
+}
+
+.sbmt {
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+.main__product {
+    background-image: url('images/product.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 770px;
+}
+
+.title {
+ text-transform: uppercase;
+ margin-left: 110px;
+ width: 380px;
+ margin-top: 20px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px 25px 50px;
+    margin-top: 320px;
+    background-color: rgb(0, 0, 0, .7);
+}
+
+.price__text {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.price__button {
+    background-color: #1FEB10;
+    color: white;
+    align-self: center;
+    padding: 10px 30px;
+    border-radius: 70px;
+    text-transform: uppercase;
+}
+
+.price__button:hover {
+    cursor: pointer;
+    background-color: #A5D858;
+}
+

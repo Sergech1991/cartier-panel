@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Панели из сотового картона</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="root">
+        <header class="header">
+            <div class="header__block-one">
+                <img src="images/logo.png" class="logo" alt="Логотип" title="Логотип">
+            </div>
+            <div class="header__block-two">
+                <div class="contacts">
+                    <div class="email-block">
+                        <img src="images/email.png" alt="email" title="email" class="item1">
+                        <p class="first-block__item">example@.com</p>
+                    </div>
+                    <div class="contacts__data">
+                        <div class="block-one">
+                            <img src="images/phone.png" alt="Телефон" title="Телефон" class="item1">
+                            <a href="tel:+375333356154" class="phone-link">+375 (33) 335 61 54</a>
+                        </div>  
+                        <div class="contacts__messengers">
+                            <a href="viber://add?number=375333356154" class="viber-link"><img src="images/viber.png" alt="viber" title="viber" class="viber"></a>
+                            <a href="https://wa.me/375333356154" class="viber-link"><img src="images/whatsapp.png" alt="whatsapp" title="whatsapp" class="viber"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Цены</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Галерея</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main__form">
+					<p class="main__form-title">Форма обратной связи</p>
+					 <form class="activeform" action="#">
+						<div><label for="name">Имя<input id="name" class="inputbox" type="text" name="user_name" placeholder="Ваше имя:" required></label></div>
+						<div><label for="email">Email<input id="email" class="inputbox" type="email" name="user_mail" placeholder="Ваш e-mail:"></label></div>
+						<div><label for="phone">Телефон<input id="phone" class="inputbox" type="tel" name="user_phone" placeholder="Ваш телефон:" required></label></div>
+						<textarea placeholder="Что Вас интересует?"></textarea>
+						<div><input class="price__button sbmt" type="submit" value="ОТПРАВИТЬ"></div>
+					 </form>
+            </div>
+
+            <div class="main__product">
+                <h1 class="title">Панели из сотового картона</h1>
+                <div class="price">
+                    <p class="price__text">Цена метра<br> 10.50 руб</p>
+                    <button class="price__button" type="submit">Заказать</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
